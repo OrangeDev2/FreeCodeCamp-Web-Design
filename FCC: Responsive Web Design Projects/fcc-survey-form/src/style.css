@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  text-align: center;
+  background: url("https://ak.picdn.net/shutterstock/videos/3009763/thumb/11.jpg");
+  background-repeat: none;
+  background-size: 100%;
+  color: white;
+}
+
+#survey-form {
+  text-align: left;
+  background-color: grey;
+  width: 75%;
+  margin: auto;
+  padding: 2%;
+  border-radius: 0.5em;
+  opacity: 95%;
+}
+
+#survey-form input {
+  width: 90%;
+  padding: 1rem;
+}
+
+#submit {
+  margin-top: 2rem;
+  background-color: cyan;
+}
+
+select {
+  width: 94%;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+#radio-div input,
+#checkbox-div input {
+  margin-left: -40%;
+  margin-right: -40%;
+}
+
+#radio-div h3,
+#checkbox-div h3 {
+  margin-left: 1.5rem;
+}
+
+#radio-div label,
+#checkbox-div label {
+  font-size: 1.5em;
+  display: block;
+}
+
+#radio-div input[type="radio"],
+#checkbox-div input[type="checkbox"] {
+  transform: scale(1.7);
+}
+
+#checkbox-div p {
+  margin-left: 1rem;
+}
+
+#comment-div h3 {
+  margin-left: 2rem;
+}
+
+#comment-div textarea {
+  width: 90%;
+  margin: auto;
+  height: 10rem;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC: Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<header>
+  <h1 id="title">Survey Form</h1>
+
+  <p id="description">Thank you for taking your time to help us improve our platform!</p>
+</header>
+
+<div class="container-that-I-will-never-use">
+  <form id="survey-form" action="#">
+
+    <h1><label id="name-label" for="name">Name</label></h1>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+    <h1><label id="email-label" for="email">E-mail</label></h1>
+    <input type="email" id="email" name="name" placeholder="Enter your email" required>
+
+    <h1><label id="number-label" for="number">Age</label></h1>
+    <input type="number" id="number" name="age" placeholder="Enter your age" required min="0" max="120">
+
+    <h3><label>Which option best describes your current role?</label></h3>
+    <select id="dropdown" name="role">
+      <option value="student">Student</option>
+      <option value="employee">Full time job</option>
+      <option value="learner">Full time learner</option>
+      <option value="other">Other</option>
+    </select>
+
+    <div id="radio-div">
+      <h3>Would you recommend freeCodeCamp to a friend?</h3>
+
+      <label>
+        <input type="radio" id="definitely" name="opt" checked value="definitely" />Definitely</label>
+
+      <label>
+        <input type="radio" id="maybe" name="opt" value="maybe" />Maybe</label>
+
+      <label>
+        <input type="radio" id="not-sure" name="opt" value="not-sure" />Not sure</label>
+
+    </div>
+
+    <div id="checkbox-div">
+      <h3>Which certification would you like to get from freeCodeCamp?</h3>
+      <p>(Select all that apply)</p>
+
+      <label>
+        <input type="checkbox" id="definitely" name="opt" checked value="rwd" />Responsive Web Design</label>
+
+      <label>
+        <input type="checkbox" id="maybe" name="opt" value="data-struc" />Algorithms and Data Structures</label>
+
+      <label>
+        <input type="checkbox" id="not-sure" name="opt" value="front-end-libs" />Front End Libraries</label>
+
+      <label>
+        <input type="checkbox" id="not-sure" name="opt" value="front-end-libs" />Data Visualization</label>
+
+      <label>
+        <input type="checkbox" id="not-sure" name="opt" value="front-end-libs" />APIs and Microservices</label>
+
+      <label>
+        <input type="checkbox" id="not-sure" name="opt" value="front-end-libs" />Information Security and Quality Assurance</label>
+
+    </div>
+
+    <div id="comment-div">
+      <h3>Any comments or suggestions?</h3>
+      <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here...">I like your survey form!</textarea>
+    </div>
+
+    <input type="submit" value="Submit" id="submit">
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>
