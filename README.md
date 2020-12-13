@@ -3,7 +3,7 @@
 <a href="https://www.freecodecamp.org/certification/fel2/responsive-web-design"><img src="fcc-rwd-images/cert.png" width=5000></a>
 
 # 1. Tribute Page
-<a href="https://codepen.io/srobotics/pen/poEEOXj"><img src="fcc-rwd-images/tom-tp.png" width=5000></a>
+<a href="https://codepen.io/srobotics/pen/poEEOXj"><img src="fcc-rwd-images/tom-tp.png" width=3000></a>
 
 # 2. Survey Form
 <a href="https://codepen.io/srobotics/full/rNMWWzm"><img src="fcc-rwd-images/survey-form.png" width=5000></a>
