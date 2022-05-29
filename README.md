@@ -1,5 +1,5 @@
 # FCC: Responsive Web Design Projects/Cert. (Source Code available on my CodePen).
-# My Certification :)
+# Certification :). https://www.freecodecamp.org/certification/fel2/responsive-web-design
 <a href="https://www.freecodecamp.org/certification/fel2/responsive-web-design"><img src="fcc-rwd-images/cert.png" width=1000></a>
 
 # 1. Tribute Page
